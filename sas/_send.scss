@@ -1,0 +1,84 @@
+.send {
+    background: #F2F4FA;
+
+    &__row {
+        display: flex;
+        align-items: center;
+        gap: 150px;
+        padding: 100px;
+    }
+
+    &__title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 64px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.08em;
+        color: #3F4255;
+        padding-bottom: 24px;
+    }
+
+    &__text {
+        font-family: 'Martel Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+        color: #3F4255;
+    }
+
+    &__col1 {
+        display: flex;
+    }
+
+    &__btn {
+        font-family: 'Martel Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+        color: #9093A6;
+        background: #FFFFFF;
+        box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+        background-repeat: 1px;
+        width: 336px;
+        height: 72px;
+        border: none;
+        display: flex;
+        gap: 10px;
+        img{
+            margin-left: 10px;
+        }
+    }
+
+    &__btns {
+        font-family: 'Martel Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #B79C10;
+        background: #FFE145;
+        border-radius: 4px;
+        border: none;
+        width: 88px;
+        height: 72px;
+        text-align: center;
+        align-items: center;
+        padding-left: 25px;
+    }
+
+}

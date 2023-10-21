@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+   width: 100%;
+   max-width: 1240px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+@import"_navbar.scss";
+@import"_header.scss";
+@import"_send.scss";
+@import"_Specialities.scss";
+@import"_yellow.scss";
+@import"_kitchen.scss";

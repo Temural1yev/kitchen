@@ -1,0 +1,64 @@
+.kitchen {
+    background: #3F4255;
+    padding-top: 48px;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        gap: 85px;
+        padding-bottom: 100px;
+    }
+
+    &__border {
+        width: 296px;
+        height: 1px;
+        background: #D4D7E6;
+        margin: 48px 0px;
+    }
+
+    &__title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        padding-bottom: 24px;
+    }
+
+    &__text {
+        font-family: 'Martel Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+        color: #D4D7E6;
+        padding-bottom: 16px;
+    }
+
+    &__footer {
+        display: flex;
+        align-items: center;
+        gap: 724px;
+        padding-bottom: 52px;
+    }
+
+    &__botton {
+        justify-content: end;
+        font-family: 'Martel Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        display: flex;
+        gap: 50px;
+    }
+}
